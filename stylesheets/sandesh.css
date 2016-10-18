@@ -3,7 +3,7 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 12px/1.5 "Helvetica Neue";
+  font: 12px/1.5  'San Francisco', Helvetica, Arial, san-serif; ;
   color:#595959;
   font-weight:400;
 }
