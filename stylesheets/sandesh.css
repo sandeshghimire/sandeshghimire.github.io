@@ -60,3 +60,7 @@ small {
 	background: #ffc107;
 	color: #000;
 }
+
+selection {
+	  padding:50px;
+}
