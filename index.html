@@ -82,11 +82,11 @@
 			<selection>
 				<p> I am an embedded software engineer working at a stealth mode health care startup at Silicon Valley. I have over a decade
 					of experience working on mission critical embedded systems from automotive system, networking time and synchronization,
-					consumer electronic and medical device. 
+					consumer electronic and medical device.
 				</p>
 
 				<p> I have significant experience working with ARM M0, M3 and M4 microcontrollers from wide variety of venders including
-					NXP, Freescale, Atmel, ST Micro, TI and Microchip. 
+					NXP, Freescale, Atmel, ST Micro, TI and Microchip.
 				</p>
 
 				<p>For the last several years I have been working on ARM application processors from wide variety of vendors including Xilinx,
@@ -96,7 +96,7 @@
 
 				<p>I have worked on many proprietary boards during my career which i am not in liberty to publish, however here are some
 					of the open source sample projects i can share with you. I hope this website help you quickly get started with your
-					development process. 
+					development process.
 				</p>
 			</selection>
 
@@ -105,43 +105,89 @@
 			<hr>
 			<selection>
 				<h1> <a id="xilinx">Xilinx Zynq 7000 (ZedBoard)</a> </h1><br>
-				<p>Xilinx All Programmable SoCs (AP SoC) are processor-centric platforms that offer software, hardware and I/O programmability
-					in a single chip. The Zynq-7000 family is based on the All Programmable SoC architecture. Zynq-7000 products incorporate
-					a dual core ARM Cortex-A9 based Processing System (PS) and Xilinx Programmable Logic in a single device. </p>
+				<p>
+					Xilinx's all programmable SoCs are processor-centric platforms that offer software, hardware and I/O programmability in a
+					single chip. The Zynq-7000 family is based on the All Programmable SoC architecture. Zynq-7000 products incorporate
+					a dual core ARM Cortex-A9 based Processing System (PS) and Xilinx Programmable Logic (PL) in a single device.
+
+				</p>
+
+				<p>
+					ZedBoard is a complete development kit for designers interested in exploring designs using the Xilinx Zynq-7000 All Programmable
+					SoC. . This section describes a group of projects which help to jumpstart the development process. The project include
+					bare metal implementation with FreeRTOS , Linux Root File System (RFS), Linux Software Development Kit (LSDK) and a
+					final project with both FreeRTOS and Linux running side by side on the same machine
+				</p>
 
 
 				<h2> <a href="https://github.com/sandeshghimire/FreeRTOSZedBoard"> FreeRTOS Port for ZedBoard </a></h2>
 				<hr>
-				<p>This is a sample project bsed on Xilinx SDK tool chain that enables freeRTOS running in Zedboard, you can download the
-					latest release from <a href="https://github.com/sandeshghimire/FreeRTOSZedBoard/releases"> here  </a> </p>
+				<p>
+					FreeRTOS is an industry standard open source real time operating system. It is popular and runs in wide variety of microcontrollers
+					from Cortex M0/M3/M4 through A7/A9 SoC. FreeRTOS is versatile and if you are looking for a real time performance from
+					your Zynq-7000 SoC it is the right solution. </p>
+
+				<p>In this example i have created 3 threads and a software timer, the tx task, rx task and a dma task. These task have unique
+					priority and defined stack sizes. In addition there is a software timer which fires periodically at 10 Hz.
+
+					<a href="https://github.com/sandeshghimire/FreeRTOSZedBoard/releases"> here  </a> </p>
 
 
 
-				<h2> <a href="https://github.com/sandeshghimire/Zed-Board-Root-File-System"> ZedBoard Root File System (Linux) </a></h2>
+				<h2> <a href="https://github.com/sandeshghimire/Zed-Board-Root-File-System"> ZedBoard SD Card Image  </a></h2>
 				<hr>
-				<p>This is full root filesystem based on Yocto build system. Please follow the README on how to write this image to a file.
-					you can download the latest release from <a href="https://github.com/sandeshghimire/FreeRTOSZedBoard/releases"> here  </a>					</p>
+				<p>
+					The SD card image contains all the essential components to boot the linux operating system. The image has two partition,
+					the first partition has two paration, the first one is FA32 paration which contains the First Stage Bootloader (FSBL).
+					The bootloader (U-BOOT). The device tree (TD) and Linux Kernel .
+				</p>
+				<p>
+					The second partition of the SD card contains the Root File System (RFS) based on linux standard base (LSB). The RFS contains
+					all the essentials file and library to boot the ZedBoard. This RFS is developed from scratch for the ZedBoard therefore
+					it is not part of any distribution but ZedBoard and every component has been configured and optimized for ZedBoard.
+
+					<a href="https://github.com/sandeshghimire/FreeRTOSZedBoard/releases"> here  </a> </p>
+
+
 
 				<h2> <a href="https://github.com/sandeshghimire/Zed-Board-Software-Development-Kit"> Zed Board Software Development Kit (Linux) </a></h2>
 				<hr>
-				<p>Software development kit for Zabad, comes with compiler and the bin utils, please follow the README on how to install
-					and use this SDK. you can download the latest release from <a href="https://github.com/sandeshghimire/FreeRTOSZedBoard/releases"> here  </a>					</p>
+				<p>A software development kit (SDK) is typically a set of software development tools that allows the creation of applications
+					for a certain software package, software framework, hardware platform, operating system, or similar development platform.The
+					installation process for ZSDK is available on the readme file here. <a href="https://github.com/sandeshghimire/FreeRTOSZedBoard/releases"> here  </a>					</p>
 
 
+				<h2> <a href="https://github.com/sandeshghimire/ZedBoard-Sample-Source-Code"> Zed Board Sample Source Code </a></h2>
+				<hr>
+				<p>In order to develop application on embedded linux you need three components, the sd card or emmc image. The software
+					development kit and getting started guide. The earlier two are explained above. The later is available here.
 
+				</p>
+				<p>
+					There are three sample projects, the first one is sample code written in C, it creates 10 threads prints message and exits.
+					This example uses POSIX pthread library . The second is sample code written in C++, it uses cpp std::thread. Both of
+					these two example are based on CMake build system. </p>
+
+				<p>The third example is linux driver project. First the script configures environment for driver development and it uses
+					makefile to build the drivers.
+
+
+					<a href="https://github.com/sandeshghimire/ZedBoard-Sample-Source-Code/releases"> here  </a></p>
 
 
 				<h2> <a href="https://github.com/sandeshghimire/-AMP-Running-Linux-and-Bare-Metal-System-on-Both-Zynq-SoC-Processors">  AMP Running Linux and Bare-Metal System on Both Zynq SoC Processors </a></h2>
 				<hr>
-				<p>The Zynq-7000 All Programmable SoC contains two ARM Cortex-A9 processors that can be configured to concurrently run independent
-					software stacks or executables. This demo software shows a method of starting up both processors, each running its own
-					operating system and application, and allowing each processor to communicate with the other through shared memory. you
-					can download the latest release from <a href="https://github.com/sandeshghimire/-AMP-Running-Linux-and-Bare-Metal-System-on-Both-Zynq-SoC-Processors/releases"> here  </a>					</p>
+				<p>
 
-				<h2> <a href="https://github.com/sandeshghimire/ZedBoard-Sample-Source-Code"> Zed Board Sample Source Code </a></h2>
-				<hr>
-				<p>This sample project will show you how to use the SDK and get you started on developing C, C++ and Linux Device Drivers
-					<a href="https://github.com/sandeshghimire/ZedBoard-Sample-Source-Code/releases"> here  </a></p>
+					This is a interesting project i have been working on for a while. This project take best of both world, the bare metal real
+					time performance of FreeRTOS and embedded Linux. They share data via shared memory model. The work in progress, you
+					can keep track of this project here.
+
+
+
+					<a href="https://github.com/sandeshghimire/-AMP-Running-Linux-and-Bare-Metal-System-on-Both-Zynq-SoC-Processors/releases"> here  </a>					</p>
+
+
 
 
 
