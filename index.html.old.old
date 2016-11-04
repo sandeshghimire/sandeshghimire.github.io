@@ -178,10 +178,184 @@
 				<h2> <a href="https://github.com/sandeshghimire/-AMP-Running-Linux-and-Bare-Metal-System-on-Both-Zynq-SoC-Processors">  AMP Running Linux and Bare-Metal System on Both Zynq SoC Processors </a></h2>
 				<hr>
 				<p>
+
 					This is a interesting project i have been working on for a while. This project take best of both world, the bare metal real
 					time performance of FreeRTOS and embedded Linux. They share data via shared memory model. The work in progress, you
 					can keep track of this project here.
+
+
+
 					<a href="https://github.com/sandeshghimire/-AMP-Running-Linux-and-Bare-Metal-System-on-Both-Zynq-SoC-Processors/releases"> here  </a>					</p>
+
+
+
+
+
+
+			</selection>
+
+			<hr>
+
+			<selection>
+				<h1> <a id="altera">Altera SoC </a> </h1><br>
+				<p>Altera SoCs integrate an ARM-based hard processor system (HPS) consisting of processor, peripherals, and memory interfaces
+					with the FPGA fabric using a high-bandwidth interconnect backbone. It combines the performance and power savings of
+					hard intellectual property (IP) with the flexibility of programmable logic. </p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Root-File-System"> Arrow SoCKit Evaluation Board Root File System </a></h2>
+				<hr>
+				<p>This is full root filesystem based on Yocto build system. Please follow the README on how to write this image to a file
+				</p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Software-Development-Kit"> Arrow SoCKit Evaluation Board Software Development Kit </a></h2>
+				<hr>
+				<p>Software development kit for Zabad, comes with compiler and the bin utils, please follow the README on how to install
+					and use this SDK </p>
+
+				<p> Please email me at sandeshghimire@outlook.com if you want me to add more packages </p>
+			</selection>
+
+
+			<selection>
+				<h1> <a id="snickerdoodle">Snickerdoodle / Snickerdoodle-Black </a> </h1><br>
+				<p>Sickerdoodle is a complete development kit for designers interested in exploring designs using the Xilinx Zynq®-7000
+					All Programmable SoC. The board contains all the necessary interfaces and supporting functions to enable a wide range
+					of applications. The expandability features of the board make it ideal for rapid prototyping and proof-of-concept development.
+				</p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Root-File-System"> Snickerdoodle Root File System </a></h2>
+				<hr>
+				<p>This is full root filesystem based on Yocto build system. Please follow the README on how to write this image to a file
+				</p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Software-Development-Kit"> Snickerdoodle Software Development Kit </a></h2>
+				<hr>
+				<p>Software development kit for Snickerdoodle, comes with compiler and the bin utils, please follow the README on how to
+					install and use this SDK </p>
+
+				<p> Please email me at sandeshghimire@outlook.com if you want me to add more packages </p>
+			</selection>
+
+
+			<selection>
+				<h1> <a id="beagleboneblack">Beaglebone Black </a> </h1><br>
+				<p>BeagleBone Black is a low-cost, community-supported development platform for developers and hobbyists. Boot Linux in
+					under 10 seconds and get started on development in less than 5 minutes with just a single USB cable. </p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Root-File-System"> Beaglebone Black Root File System </a></h2>
+				<hr>
+				<p>This is full root filesystem based on Yocto build system. Please follow the README on how to write this image to a file
+				</p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Software-Development-Kit"> Beaglebone BlackSoftware Development Kit </a></h2>
+				<hr>
+				<p>Software development kit for Beaglebone Black, comes with compiler and the bin utils, please follow the README on how
+					to install and use this SDK </p>
+
+				<p> Please email me at sandeshghimire@outlook.com if you want me to add more packages </p>
+			</selection>
+
+
+
+			<selection>
+				<h1> <a id="Raspberrypi">Raspberrypi 1/2/3 </a> </h1><br>
+				<p>The Raspberry Pi is a series of credit card-sized single-board computers developed in the United Kingdom by the Raspberry
+					Pi Foundation to promote the teaching of basic computer science in schools and developing countries </p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Root-File-System"> Raspberrypi Root File System </a></h2>
+				<hr>
+				<p>This is full root filesystem based on Yocto build system. Please follow the README on how to write this image to a file
+				</p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Software-Development-Kit"> RaspberrypiSoftware Development Kit </a></h2>
+				<hr>
+				<p>Software development kit for Raspberrypi, comes with compiler and the bin utils, please follow the README on how to install
+					and use this SDK </p>
+
+				<p> Please email me at sandeshghimire@outlook.com if you want me to add more packages </p>
+			</selection>
+
+
+			<selection>
+				<h1> <a id="pandaboard">Pandaboard </a> </h1><br>
+				<p>The PandaBoard is a low-power, low-cost single-board computer development platform based on the Texas Instruments OMAP4430
+					system on a chip (SoC). The board has been available to the public at the subsidized[1] price of US$174 since 27 October
+					2010. It is a community supported development platform </p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Root-File-System"> PandaboardRoot File System </a></h2>
+				<hr>
+				<p>This is full root filesystem based on Yocto build system. Please follow the README on how to write this image to a file
+				</p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Software-Development-Kit"> PandaboardSoftware Development Kit </a></h2>
+				<hr>
+				<p>Software development kit for Pandaboard, comes with compiler and the bin utils, please follow the README on how to install
+					and use this SDK </p>
+
+				<p> Please email me at sandeshghimire@outlook.com if you want me to add more packages </p>
+			</selection>
+
+
+			<selection>
+				<h1> <a id="DragonBoard410c">DragonBoard 410c </a> </h1><br>
+				<p>The DragonBoard 410c is the first development board based on a Qualcomm Snapdragon 400 series processor. It features
+					advanced processing power, Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.
+					Based on the 64-bit capable Snapdragon 410E processor, </p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Root-File-System">  DragonBoard 410c Root File System </a></h2>
+				<hr>
+				<p>This is full root filesystem based on Yocto build system. Please follow the README on how to write this image to a file
+				</p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Software-Development-Kit">  DragonBoard 410c Software Development Kit </a></h2>
+				<hr>
+				<p>Software development kit for DragonBoard 410c, comes with compiler and the bin utils, please follow the README on how
+					to install and use this SDK </p>
+
+				<p> Please email me at sandeshghimire@outlook.com if you want me to add more packages </p>
+			</selection>
+
+
+			<selection>
+				<h1> <a id="beagleBonegreen">BeagleBone Green </a> </h1><br>
+				<p>SeeedStudio BeagleBone Green (BBG) is a joint effort by BeagleBoard.org and Seeed Studio. It is based on the open-source
+					hardware design of BeagleBone Black and developed into this differentiated version. The BBG has included two Grove connectors,
+					making it easier to connect to the large family of Grove sensors </p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Root-File-System"> BeagleBone Green  Root File System </a></h2>
+				<hr>
+				<p>This is full root filesystem based on Yocto build system. Please follow the README on how to write this image to a file
+				</p>
+
+				<h2> <a href="https://github.com/sandeshghimire/Arrow-SoCKit-Evaluation-Board-Software-Development-Kit"> BeagleBone Green Software Development Kit </a></h2>
+				<hr>
+				<p>Software development kit for BeagleBone Green , comes with compiler and the bin utils, please follow the README on how
+					to install and use this SDK </p>
+
+				<p> Please email me at sandeshghimire@outlook.com if you want me to add more packages </p>
+			</selection>
+
+
+
+
+			<hr>
+			<selection>
+				<h1> <a id="armcortexm0"> ARM Cortex M0+ Projects  </a> </h1><br>
+				<p>The ARM Cortex-M0 processor is the smallest ARM processor available. Its exceptionally low gate count, minimal power
+					requirements, and reduced code footprint make the Cortex-M0 exceptionally cost-competitive compared to legacy 8-bit
+					processors whilst at the same time offering 32-bit performance </p>
+
+				<ul>
+					<li><a href="https://github.com/sandeshghimire/ARMCortexM0/tree/master/ARMCortexM0-BlinkLED">ARMCortexM0-BlinkLED </a> </li>
+					<li><a href="https://github.com/sandeshghimire/ARMCortexM0/tree/master/ARMCortexM0-PWM">ARMCortexM0-PWM </a></li>
+					<li><a href="https://github.com/sandeshghimire/ARMCortexM0/tree/master/ARMCortexM0-FreeRTOS">ARMCortexM0-FreeRTOS </a></li>
+					<li><a href="https://github.com/sandeshghimire/ARMCortexM0/tree/master/ARMCortexM0-BLE">ARMCortexM0-BLE</a> </li>
+					<li><a href="https://github.com/sandeshghimire/ARMCortexM0/tree/master/ARMCortexM0-WiFi">ARMCortexM0-WiFi</a></li>
+					<li><a href="https://github.com/sandeshghimire/ARMCortexM0/tree/master/ARMCortexM0-SDCARD">ARMCortexM0-SDCARD </a></li>
+				</ul>
+
+
+				<p> Please email me at sandeshghimire@outlook.com if you want me to add more packages </p>
 			</selection>
 		</section>
 	</div>
