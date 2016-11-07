@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<title>Sandesh J. Ghimire</title>
+	<base href="" />
+
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+	<link rel="stylesheet" href="stylesheets/sandesh.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="canonical" href="http://sandeshghimire.github.io/" />
+
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="author" content="Sandesh J. Ghimire" />
+	<meta name="description" content="Sandesh Ghimire is an engineer who works at stealth mode health care startup and lives in Silicon Valley "
+	/>
+	<meta name="keywords" content="Sandesh Ghimire,Linux,kernel,Starup Up,Embedded Linux,Firmware,Xilinx Zynq 7000, FSBL, U-Boot, Root File System, RFS, Linux Kenrel "
+	/>
+	<meta name="keywords" content="ARM Cortex M0, M0+, M3, M4, A7, A9, A15,  Atmel, Atmel Xplained Pro evaluation kit, Bluetooth, BLE, WiFi "
+	/>
+	<meta name="theme-color" content="#424242" />
+	<meta name="referrer" content="origin" />
+
+	<!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<img src="img/img.jpg">
+			<h2>Sandesh J. Ghimire </h2>
+
+			<p>Embedded Firmware Developer </ br> <a href="mailto:sandeshghimire@outlook.com"> sandeshghimire@outlook.com </a> </p>
+
+			<p>I am available for short or long term projects; including board bring up, device drivers, applicaton porting, you may
+				request my <a href="mailto:sandeshghimire@outlook.com">  resume </a> via email </p>
+
+
+
+			<h1>Projects</h1>
+			<hr> Microprocessor Projects (FPGA)
+			<ul>
+				<li><a href="#xilinx">Xilinx Zynq 7000</a> </li>
+			</ul>
+
+
+
+		</header>
+		<section>
+			<h1>Links</h1>
+			<hr>
+			<a href="http://sandeshghimire.github.io/"> &emsp;Home</a>&emsp;
+			<a href="https://twitter.com/sandeshghimire">&emsp;Twitter</a>&emsp;
+			<a href="https://www.linkedin.com/in/sandesh-ghimire-34a43894?trk=nav_responsive_tab_profile"> &emsp;Linkedin </a>&emsp;
+			<a href="https://github.com/sandeshghimire"> &emsp;GitHub </a>&emsp;
+			<a href="https://angel.co/sandesh-ghimire"> &emsp;AngleList </a>&emsp;
+			<a href="https://bitbucket.org/sandesh_ghimire/"> &emsp;BitBucket </a>&emsp;
+			<selection>
+
+
+			</selection>
+			<h1>About</h1>
+			<hr>
+			<selection>
+				<p> I am an embedded software engineer working at a stealth mode health care startup at Silicon Valley. I have over a decade
+					of experience working on mission critical embedded systems from automotive system, networking time and synchronization,
+					consumer electronic and medical device.
+				</p>
+
+				<p> I have significant experience working with ARM M0, M3 and M4 microcontrollers from wide variety of venders including
+					NXP, Freescale, Atmel, ST Micro, TI and Microchip.
+				</p>
+
+				<p>For the last several years I have been working on ARM application processors from wide variety of vendors including Xilinx,
+					Altera, TI, Broadcom and qualcomm . I have single handedly build the board support package, port bootloader, port and
+					configure Linux kernel, write device drivers from scratch and developed applications for wide variety of products.
+				</p>
+
+				<p>I have worked on many proprietary boards during my career which i am not in liberty to publish, however here are some
+					of the open source sample projects i can share with you. I hope this website help you quickly get started with your
+					development process.
+				</p>
+			</selection>
+
+
+			<h1>Projects </h1>
+			<hr>
+			<selection>
+				<h1> <a id="xilinx">Xilinx Zynq 7000 (ZedBoard)</a> </h1><br>
+				<p>
+					Xilinx's all programmable SoCs are processor-centric platforms that offer software, hardware and I/O programmability in a
+					single chip. The Zynq-7000 family is based on the All Programmable SoC architecture. Zynq-7000 products incorporate
+					a dual core ARM Cortex-A9 based Processing System (PS) and Xilinx Programmable Logic (PL) in a single device.
+
+				</p>
+
+				<p>
+					ZedBoard is a complete development kit for designers interested in exploring designs using the Xilinx Zynq-7000 All Programmable
+					SoC. . This section describes a group of projects which help to jumpstart the development process. The project include
+					bare metal implementation with FreeRTOS , Linux Root File System (RFS), Linux Software Development Kit (LSDK) and a
+					final project with both FreeRTOS and Linux running side by side on the same machine
+				</p>
+
+
+				<h2> <a href="https://github.com/sandeshghimire/FreeRTOSZedBoard"> FreeRTOS Port for ZedBoard </a></h2>
+				<hr>
+				<p>
+					FreeRTOS is an industry standard open source real time operating system. It is popular and runs in wide variety of microcontrollers
+					from Cortex M0/M3/M4 through A7/A9 SoC. FreeRTOS is versatile and if you are looking for a real time performance from
+					your Zynq-7000 SoC it is the right solution. </p>
+
+				<p>In this example i have created 3 threads and a software timer, the tx task, rx task and a dma task. These task have unique
+					priority and defined stack sizes. In addition there is a software timer which fires periodically at 10 Hz.
+
+					<a href="https://github.com/sandeshghimire/FreeRTOSZedBoard/releases"> here  </a> </p>
+
+
+
+				<h2> <a href="https://github.com/sandeshghimire/Zed-Board-Root-File-System"> ZedBoard SD Card Image  </a></h2>
+				<hr>
+				<p>
+					The SD card image contains all the essential components to boot the linux operating system. The image has two partition,
+					the first partition has two paration, the first one is FA32 paration which contains the First Stage Bootloader (FSBL).
+					The bootloader (U-BOOT). The device tree (TD) and Linux Kernel .
+				</p>
+				<p>
+					The second partition of the SD card contains the Root File System (RFS) based on linux standard base (LSB). The RFS contains
+					all the essentials file and library to boot the ZedBoard. This RFS is developed from scratch for the ZedBoard therefore
+					it is not part of any distribution but ZedBoard and every component has been configured and optimized for ZedBoard.
+
+					<a href="https://github.com/sandeshghimire/FreeRTOSZedBoard/releases"> here  </a> </p>
+
+
+
+				<h2> <a href="https://github.com/sandeshghimire/Zed-Board-Software-Development-Kit"> Zed Board Software Development Kit (Linux) </a></h2>
+				<hr>
+				<p>A software development kit (SDK) is typically a set of software development tools that allows the creation of applications
+					for a certain software package, software framework, hardware platform, operating system, or similar development platform.The
+					installation process for ZSDK is available on the readme file here. <a href="https://github.com/sandeshghimire/FreeRTOSZedBoard/releases"> here  </a>					</p>
+
+
+				<h2> <a href="https://github.com/sandeshghimire/ZedBoard-Sample-Source-Code"> Zed Board Sample Source Code </a></h2>
+				<hr>
+				<p>In order to develop application on embedded linux you need three components, the sd card or emmc image. The software
+					development kit and getting started guide. The earlier two are explained above. The later is available here.
+
+				</p>
+				<p>
+					There are three sample projects, the first one is sample code written in C, it creates 10 threads prints message and exits.
+					This example uses POSIX pthread library . The second is sample code written in C++, it uses cpp std::thread. Both of
+					these two example are based on CMake build system. </p>
+
+				<p>The third example is linux driver project. First the script configures environment for driver development and it uses
+					makefile to build the drivers.
+
+
+					<a href="https://github.com/sandeshghimire/ZedBoard-Sample-Source-Code/releases"> here  </a></p>
+
+
+				<h2> <a href="https://github.com/sandeshghimire/-AMP-Running-Linux-and-Bare-Metal-System-on-Both-Zynq-SoC-Processors">  AMP Running Linux and Bare-Metal System on Both Zynq SoC Processors </a></h2>
+				<hr>
+				<p>
+					This is a interesting project i have been working on for a while. This project take best of both world, the bare metal real
+					time performance of FreeRTOS and embedded Linux. They share data via shared memory model. The work in progress, you
+					can keep track of this project here.
+					<a href="https://github.com/sandeshghimire/-AMP-Running-Linux-and-Bare-Metal-System-on-Both-Zynq-SoC-Processors/releases"> here  </a>					</p>
+			</selection>
+		</section>
+	</div>
+
+	<script src="javascripts/scale.fix.js"></script>
+	<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-85993965-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+</body>
+
+</html>

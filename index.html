@@ -46,7 +46,7 @@
 			<h1>Projects</h1>
 			<hr> Microprocessor Projects (FPGA)
 			<ul>
-				<li><a href="#xilinx">Xilinx Zynq 7000</a> </li>
+				<li><a href="zynq.html">Xilinx Zynq 7000</a> </li>
 			</ul>
 
 
@@ -86,90 +86,6 @@
 					of the open source sample projects i can share with you. I hope this website help you quickly get started with your
 					development process.
 				</p>
-			</selection>
-
-
-			<h1>Projects </h1>
-			<hr>
-			<selection>
-				<h1> <a id="xilinx">Xilinx Zynq 7000 (ZedBoard)</a> </h1><br>
-				<p>
-					Xilinx's all programmable SoCs are processor-centric platforms that offer software, hardware and I/O programmability in a
-					single chip. The Zynq-7000 family is based on the All Programmable SoC architecture. Zynq-7000 products incorporate
-					a dual core ARM Cortex-A9 based Processing System (PS) and Xilinx Programmable Logic (PL) in a single device.
-
-				</p>
-
-				<p>
-					ZedBoard is a complete development kit for designers interested in exploring designs using the Xilinx Zynq-7000 All Programmable
-					SoC. . This section describes a group of projects which help to jumpstart the development process. The project include
-					bare metal implementation with FreeRTOS , Linux Root File System (RFS), Linux Software Development Kit (LSDK) and a
-					final project with both FreeRTOS and Linux running side by side on the same machine
-				</p>
-
-
-				<h2> <a href="https://github.com/sandeshghimire/FreeRTOSZedBoard"> FreeRTOS Port for ZedBoard </a></h2>
-				<hr>
-				<p>
-					FreeRTOS is an industry standard open source real time operating system. It is popular and runs in wide variety of microcontrollers
-					from Cortex M0/M3/M4 through A7/A9 SoC. FreeRTOS is versatile and if you are looking for a real time performance from
-					your Zynq-7000 SoC it is the right solution. </p>
-
-				<p>In this example i have created 3 threads and a software timer, the tx task, rx task and a dma task. These task have unique
-					priority and defined stack sizes. In addition there is a software timer which fires periodically at 10 Hz.
-
-					<a href="https://github.com/sandeshghimire/FreeRTOSZedBoard/releases"> here  </a> </p>
-
-
-
-				<h2> <a href="https://github.com/sandeshghimire/Zed-Board-Root-File-System"> ZedBoard SD Card Image  </a></h2>
-				<hr>
-				<p>
-					The SD card image contains all the essential components to boot the linux operating system. The image has two partition,
-					the first partition has two paration, the first one is FA32 paration which contains the First Stage Bootloader (FSBL).
-					The bootloader (U-BOOT). The device tree (TD) and Linux Kernel .
-				</p>
-				<p>
-					The second partition of the SD card contains the Root File System (RFS) based on linux standard base (LSB). The RFS contains
-					all the essentials file and library to boot the ZedBoard. This RFS is developed from scratch for the ZedBoard therefore
-					it is not part of any distribution but ZedBoard and every component has been configured and optimized for ZedBoard.
-
-					<a href="https://github.com/sandeshghimire/FreeRTOSZedBoard/releases"> here  </a> </p>
-
-
-
-				<h2> <a href="https://github.com/sandeshghimire/Zed-Board-Software-Development-Kit"> Zed Board Software Development Kit (Linux) </a></h2>
-				<hr>
-				<p>A software development kit (SDK) is typically a set of software development tools that allows the creation of applications
-					for a certain software package, software framework, hardware platform, operating system, or similar development platform.The
-					installation process for ZSDK is available on the readme file here. <a href="https://github.com/sandeshghimire/FreeRTOSZedBoard/releases"> here  </a>					</p>
-
-
-				<h2> <a href="https://github.com/sandeshghimire/ZedBoard-Sample-Source-Code"> Zed Board Sample Source Code </a></h2>
-				<hr>
-				<p>In order to develop application on embedded linux you need three components, the sd card or emmc image. The software
-					development kit and getting started guide. The earlier two are explained above. The later is available here.
-
-				</p>
-				<p>
-					There are three sample projects, the first one is sample code written in C, it creates 10 threads prints message and exits.
-					This example uses POSIX pthread library . The second is sample code written in C++, it uses cpp std::thread. Both of
-					these two example are based on CMake build system. </p>
-
-				<p>The third example is linux driver project. First the script configures environment for driver development and it uses
-					makefile to build the drivers.
-
-
-					<a href="https://github.com/sandeshghimire/ZedBoard-Sample-Source-Code/releases"> here  </a></p>
-
-
-				<h2> <a href="https://github.com/sandeshghimire/-AMP-Running-Linux-and-Bare-Metal-System-on-Both-Zynq-SoC-Processors">  AMP Running Linux and Bare-Metal System on Both Zynq SoC Processors </a></h2>
-				<hr>
-				<p>
-					This is a interesting project i have been working on for a while. This project take best of both world, the bare metal real
-					time performance of FreeRTOS and embedded Linux. They share data via shared memory model. The work in progress, you
-					can keep track of this project here.
-					<a href="https://github.com/sandeshghimire/-AMP-Running-Linux-and-Bare-Metal-System-on-Both-Zynq-SoC-Processors/releases"> here  </a>					</p>
 			</selection>
 		</section>
 	</div>
