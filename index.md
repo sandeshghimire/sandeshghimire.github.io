@@ -1,30 +1,123 @@
 ---
-layout: recipe
-title: Gingerbread
-recipe-attribution: HungryJenny
-recipe-attribution-link: 
-http://www.opensourcefood.com/people/HungryJenny/recipes/soft-christmas-gingerbread-cookies
-theme: jekyll-theme-minimal
+layout: default
 ---
-Makes about 15 small cookies.
 
-## Ingredients
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-* 175g plain flour
-* 90g brown sugar
-* 50g unsalted butter, diced, at room temperature
-* 2 tbsp golden syrup
-* 1 egg, beaten
-* 1 tsp ground ginger
-* 1 tsp cinnamon
-* 1 tsp bicarbonate of soda
-* Icing sugar to dust
+[Link to another page](./another-page.html).
 
-## Method
+There should be whitespace between paragraphs.
 
-1. Sift the flour, ginger, cinnamon and bicarbonate of soda into a large mixing bowl.
-2. Use your fingers to rub in the diced butter. Mix in the sugar.
-3. Mix the egg with the syrup then pour into the flour mixture. Fold in well to form a dough.
-4. Tip some flour onto the work surface and knead the dough until smooth.
-5. Preheat the oven to 180°C.
-6. Roll the dough out flat and use a shaped cutter to make as many cookies as you like.
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+
+# Header 1
+
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+## Header 2
+
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
+
+### Header 3
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
+#### Header 4
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+##### Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```
