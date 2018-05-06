@@ -1,17 +1,28 @@
-Sometimes you want numbered lists:
+---
+layout: recipe
+title: Gingerbread
+recipe-attribution: HungryJenny
+recipe-attribution-link: http://www.opensourcefood.com/people/HungryJenny/recipes/soft-christmas-gingerbread-cookies
+---
+Makes about 15 small cookies.
 
-1. One
-2. Two
-3. Three
+## Ingredients
 
-Sometimes you want bullet points:
+* 175g plain flour
+* 90g brown sugar
+* 50g unsalted butter, diced, at room temperature
+* 2 tbsp golden syrup
+* 1 egg, beaten
+* 1 tsp ground ginger
+* 1 tsp cinnamon
+* 1 tsp bicarbonate of soda
+* Icing sugar to dust
 
-* Start a line with a star
-* Profit!
+## Method
 
-Alternatively,
-
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
-  - Like this
-  - And this
+1. Sift the flour, ginger, cinnamon and bicarbonate of soda into a large mixing bowl.
+2. Use your fingers to rub in the diced butter. Mix in the sugar.
+3. Mix the egg with the syrup then pour into the flour mixture. Fold in well to form a dough.
+4. Tip some flour onto the work surface and knead the dough until smooth.
+5. Preheat the oven to 180°C.
+6. Roll the dough out flat and use a shaped cutter to make as many cookies as you like.
