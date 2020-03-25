@@ -17,6 +17,8 @@ section {
 
 }
 
+
+
 h1,
 h2,
 h3,
@@ -24,10 +26,14 @@ h4,
 h5,
 h6 {
 
-  font-weight: 800;
+  font-weight: 600;
   margin-top: 0;
   text-align: center;
 
+}
+
+h1 {
+  font-size: xx-large;
 }
 
 
@@ -41,7 +47,6 @@ a:hover {
 }
 
 p {
-  font-size: 1em;
-  font-weight: bold;
+  font-size: 1.1em;
 
 }
