@@ -1,18 +1,29 @@
 body {
-    background: white }
-section {
-    background: black;
-    color: white;
-    border-radius: 1em;
-    padding: 1em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) }
+  background: rgb(255, 255, 255);
+  font-family: 'Alegreya', serif;
+}
 
-/* Keep the translations off to the side */
-#translations {position: absolute; top: 0; right: 0; padding: 0.5em;
-  font-size: small; background: hsla(0,0%,100%,0.9); margin: 0 1em}
-#translations * {font-size: 100%; margin: 0}
-#translations ul {padding-left: 1em}
+section {
+  color: rgb(5, 1, 1);
+  border-radius: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+
+}
+
+h1 {
+  font-family: 'Tangerine', serif;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
