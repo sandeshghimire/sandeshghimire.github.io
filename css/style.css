@@ -51,6 +51,10 @@ p {
 
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .column {
   float: left;
 }
@@ -61,4 +65,10 @@ p {
 
 .right {
   width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
