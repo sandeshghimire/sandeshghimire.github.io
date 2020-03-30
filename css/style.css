@@ -8,6 +8,10 @@ section {
   max-width: 1024px;
   margin: auto;
   padding-top: 100px;
+
+}
+
+wrapper {
   text-align: center;
 }
 
