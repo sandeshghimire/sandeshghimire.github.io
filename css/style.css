@@ -50,3 +50,15 @@ p {
   font-size: 1.1em;
 
 }
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
