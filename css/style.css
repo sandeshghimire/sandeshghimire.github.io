@@ -49,6 +49,7 @@ p {
 quote {
   font-weight: 600;
   font-style: italic;
+  margin: 20px;
 }
 
 * {
