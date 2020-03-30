@@ -63,9 +63,7 @@ p {
   width: 200px;
 }
 
-.right {
-  width: 200px;
-}
+.right {}
 
 .row:after {
   content: "";
