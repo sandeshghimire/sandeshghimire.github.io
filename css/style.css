@@ -72,12 +72,17 @@ header {
 }
 
 .feature-left {
-  width: 50%;
+  width: 33%;
+  text-align: left;
+}
+
+.feature-middle {
+  width: 33%;
   text-align: left;
 }
 
 .feature-right {
-  width: 50%;
+  width: 33%;
 }
 
 
