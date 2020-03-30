@@ -7,7 +7,6 @@ section {
   border-radius: 5em;
   position: absolute;
   left: 50%;
-  margin-right: -50%;
   max-width: 900px;
 }
 
