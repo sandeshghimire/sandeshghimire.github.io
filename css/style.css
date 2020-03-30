@@ -40,7 +40,8 @@ a:hover {
 }
 
 p {
-  font-size: 1.0em;
+  font-size: 0.96em;
+  font-weight: 600;
 }
 
 quote {
