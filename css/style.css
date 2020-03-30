@@ -5,6 +5,7 @@ body {
 
 section {
   border-radius: 5em;
+  position: center;
   max-width: 900px;
 }
 
