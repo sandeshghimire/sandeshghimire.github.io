@@ -71,6 +71,17 @@ header {
   width: 85%;
 }
 
+.feature-left {
+  width: 50%;
+  text-align: left;
+}
+
+.feature-right {
+  width: 50%;
+}
+
+
+
 .row:after {
   content: "";
   display: table;
