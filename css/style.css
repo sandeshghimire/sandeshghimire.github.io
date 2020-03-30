@@ -17,6 +17,8 @@ h3,
 h4,
 h5,
 h6 {
+
+
   margin-top: 0;
   text-align: center;
 
@@ -34,7 +36,10 @@ a:hover {
 
 p {
   font-size: 1.0em;
+}
 
+quote {
+  font-weight: 600;
 }
 
 * {
