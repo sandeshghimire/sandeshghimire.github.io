@@ -60,11 +60,11 @@ p {
 }
 
 .left {
-  width: 25%;
+  width: 200px;
 }
 
 .right {
-  width: 75%;
+  width: 200px;
 }
 
 .row:after {
