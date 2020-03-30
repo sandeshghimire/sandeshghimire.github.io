@@ -68,6 +68,7 @@ header {
 
 .left {
   width: 20%;
+  text-align: left;
 }
 
 .right {
