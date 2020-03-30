@@ -5,8 +5,8 @@ body {
 
 section {
   border-radius: 5em;
-  position: center;
-  max-width: 900px;
+  max-width: 1024px;
+  margin: auto;
 }
 
 
